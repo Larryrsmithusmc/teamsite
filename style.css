@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #f5f5f5;
+  background-color: #39ff14; /* Neon green */
   color: #333;
 }
 
@@ -11,21 +11,31 @@ body {
 }
 
 .team-name {
-  font-size: 64px;
-  margin-bottom: 10px;
+  font-size: 90px; /* Bigger team name */
+  margin-bottom: 15px;
+  color: red;
+  border: 5px solid black;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #39ff14;
 }
 
 .team-members {
-  font-size: 22px;
-  margin-bottom: 40px;
+  font-size: 28px;
+  margin-bottom: 50px;
   font-weight: normal;
+  color: red;
+  border: 3px solid black;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #39ff14;
 }
 
 .home-nav a {
   display: block;
   margin: 12px 0;
   font-size: 18px;
-  color: #003366;
+  color: #003366; /* Keep links blue */
   text-decoration: none;
   font-weight: bold;
 }
